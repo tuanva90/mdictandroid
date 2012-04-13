@@ -2570,7 +2570,7 @@
 <XPD:REF name="Context">f7XB8HF6oUWVeKiJ7DSIXwAA</XPD:REF>
 <XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="OwnedDiagrams[0]" type="UMLSequenceDiagram" guid="aMFlWldNdU+pwqvdJIUCgQAA">
-<XPD:ATTR name="Name" type="string">SequenceDiagram1</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Configure</XPD:ATTR>
 <XPD:REF name="DiagramOwner">AEGPuJYBI0CtWF8012LThwAA</XPD:REF>
 <XPD:OBJ name="DiagramView" type="UMLSequenceDiagramView" guid="9VQw42PsVk+dfhSAze4vvgAA">
 <XPD:REF name="Diagram">aMFlWldNdU+pwqvdJIUCgQAA</XPD:REF>
