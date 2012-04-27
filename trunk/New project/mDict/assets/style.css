@@ -1,0 +1,79 @@
+﻿li {
+	background-image: url('ul.png');
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding-left: 14px;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+ul ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+ul ul li{
+	background-image: url('bluepin.png');
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding-left: 14px;
+}
+body {
+	background-image: url('bg.jpg');
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: justify;
+	vertical-align:middle;
+	line-height: 1.5em;
+	margin: 0 0 0 0;
+	background-repeat: repeat;
+	}
+div.type {
+	height: 23px;
+	text-align: left;
+	vertical-align: middle;
+	background-image: url('newbar.png');
+	background-repeat: repeat-x;
+	text-indent: 15px;
+	color: #FFFFFF;
+	font-weight:bold;
+	
+}
+div.mexample
+{
+	color: #333300;
+	font-weight:700;
+}
+@font-face
+{
+font-family: 'phienam';
+src: url('ARIAL.TTF');
+}
+.title {
+	color: #FF0066;
+	font-family:'phienam';
+	font-size:13px;
+	text-indent:15px;
+	
+}
+
+#contentShow
+{
+	border:1px #3E70BB solid;
+	width: 100%;
+	
+	height: auto;
+	margin:0 0 0 0;
+
+}
+#contentHide
+{
+	border: 1px #3E70BB solid;
+	height: 23px;
+	overflow: hidden;
+	
+
+}
