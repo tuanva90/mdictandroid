@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Wrapper -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_480x800"
+    android:orientation="vertical" >
+
+    <!-- Header  Starts -->
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/header_gradient"
+        android:orientation="vertical"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <!-- Logo Start -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Favorites"
+            android:textColor="#ffffff"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+        <!-- Logo Ends -->
+    </LinearLayout>
+    <!-- Header Ends -->
+
+
+    <!-- Result list -->
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        
+
+        <ListView
+            android:id="@+id/favourite_listResult"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="5dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="5dp"
+            android:paddingBottom="5dp" >
+        </ListView>
+
+        <Button
+            android:id="@+id/favourite_btnClearAll"
+            android:layout_width="116dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="425dp"
+            android:background="@drawable/shape_special_item_hight_light"
+            android:text="Delete All" />
+
+        <Button
+            android:id="@+id/favourite_btnDirection"
+            android:layout_width="116dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="425dp"
+            android:layout_toRightOf="@id/favourite_btnClearAll"
+            android:background="@drawable/shape_special_item_hight_light"
+            android:text="Direction" />
+    </RelativeLayout>
+
+</LinearLayout>

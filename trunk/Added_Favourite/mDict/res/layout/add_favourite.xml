@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Wrapper -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_480x800"
+    android:orientation="vertical" >
+<!-- Header  Starts -->
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/header_gradient"
+        android:orientation="vertical"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <!-- Logo Start -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Add the word"
+            android:textColor="#ffffff"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+        <!-- Logo Ends -->
+    </LinearLayout>
+    <!-- Header Ends -->
+
+
+    <!-- Result list -->
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/listResultContentWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/content_wrap_480x640" />
+
+        <TextView
+            android:id="@+id/txtIntro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="25dp"
+            android:text="Add the word the category which you select"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/btnAddToFavourite"
+            android:layout_width="116dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/shape_special_item_hight_light"
+            android:text="Add to favourite" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtIntro"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:text="Choose Category"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/ddlTo"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:prompt="@string/ddlHint" />
+
+        <TextView
+            android:id="@+id/tvNewCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:text="@string/tvNewCategory" 
+            android:visibility="invisible"/>
+
+        <EditText
+            android:id="@+id/txtNewCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" 
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            android:visibility="invisible"
+            android:hint="New category">
+
+            <requestFocus />
+        </EditText>
+
+    </RelativeLayout>
+
+</LinearLayout>
