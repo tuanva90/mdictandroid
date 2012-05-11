@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MDictActivity!</string>
+    <string name="app_name">m-Dictionary</string>
+	<string name="search_hint">Search words</string>
+	<string name="search_text">Search</string>
+	<string name="exit_text">Exit</string>
+	<string name="manual_search_button">Press Search Button To Start Search</string>
+	<string name="manual_search_menu">Press Menu -> Search To Start Search</string>
+	<string name="menu_pronounce_text">Pronounce</string>
+	<string name="search_description">search</string>
+	<string name="menu_favourite">Favourite</string>
+	<string name="ddlHint">Select one</string>
+	<string name="tvNewCategory"> New Category</string>
+	<string name="menu_add_favourite">Add Favourite</string>
+</resources>

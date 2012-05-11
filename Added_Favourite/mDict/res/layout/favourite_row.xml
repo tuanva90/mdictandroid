@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:layout_marginTop="65dp"
+    android:background="@drawable/list_selector"
+    android:padding="3dp" >
+
+    <!-- Row address -->
+
+    <TextView
+        android:id="@+id/favourite_txtWord"
+        android:layout_width="185dp"
+        android:layout_height="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:ellipsize="marquee"
+        android:maxLines="2"
+        android:textColor="#343434"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/favourite_icArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp" />
+   
+
+</RelativeLayout>
