@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <item android:id="@+id/mnOptionSearch" android:title="@string/search_text" android:icon="@drawable/ic_menu_search" android:alphabeticShortcut="s"></item>
-    <item android:id="@+id/mnOptionExit" android:title="@string/exit_text" android:alphabeticShortcut="e" android:icon="@drawable/ic_menu_exit"></item>
-    <item android:id="@+id/mnOptionPronounce" android:icon="@drawable/ic_menu_pronounce" android:title="@string/menu_pronounce_text"></item>
     
-
+    <item android:id="@+id/mnOptionPronounce" android:icon="@drawable/ic_menu_pronounce" android:title="@string/menu_pronounce_text"></item>
+    <item android:id="@+id/mnHistory" android:title="@string/menu_history_text" android:icon="@drawable/ic_menu_history"></item>
+    <item android:id="@+id/mnFavourite" android:title="@string/mn_favourite_text" android:icon="@drawable/ic_menu_favourite"></item>
+    <item android:id="@+id/mnOptionConfig" android:title="@string/mn_config_text" android:icon="@drawable/ic_menu_config"></item><item android:id="@+id/mnOptionExit" android:title="@string/exit_text" android:alphabeticShortcut="e" android:icon="@drawable/ic_menu_exit"></item>
 </menu>

@@ -1,4 +1,8 @@
-﻿li {
+﻿a
+{
+	 text-decoration:none;
+}
+li {
 	background-image: url('ul.png');
 	background-repeat: no-repeat;
 	background-position: 0px 5px;
@@ -23,7 +27,7 @@ ul ul li{
 }
 body {
 	background-image: url('bg.jpg');
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'phienam';
 	font-size: 12px;
 	text-align: justify;
 	vertical-align:middle;
@@ -74,6 +78,4 @@ src: url('ARIAL.TTF');
 	border: 1px #3E70BB solid;
 	height: 23px;
 	overflow: hidden;
-	
-
 }

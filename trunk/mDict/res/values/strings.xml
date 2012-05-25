@@ -2,11 +2,34 @@
 <resources>
 
     <string name="hello">Hello World, MDictActivity!</string>
-    <string name="app_name">m-Dictionary</string>
-	<string name="search_hint">Search words</string>
-	<string name="search_text">Search</string>
-	<string name="exit_text">Exit</string>
-	<string name="manual_search_button">Press Search Button To Start Search</string>
-	<string name="manual_search_menu">Press Menu -> Search To Start Search</string>
-	<string name="menu_pronounce_text">Pronounce</string>
+    <string name="app_name">EV-Dictionary</string>
+    <string name="search_hint">Search words</string>
+    <string name="search_text">Search</string>
+    <string name="exit_text">Exit</string>
+    <string name="manual_search_button">Press Search Button To Start Search</string>
+    <string name="manual_search_menu">Press Menu -> Search To Start Search</string>
+    <string name="menu_pronounce_text">Pronounce</string>
+    <string name="menu_favourite">Favourite</string>
+    <string name="ddlHint">Select one</string>
+    <string name="tvNewCategory"> New Category</string>
+    <string name="menu_add_favourite">Add Favourite</string>
+    <string name="menu_config">Configuration</string>
+    <string name="color1"></string>
+    <string name="search_description">search</string>
+    <string name="menu_history_text">History</string>
+    <string name="mn_favourite_text">Favourite</string>
+    <string name="mn_config_text">Config</string>
+    <string name="location">Location</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Select</string>
+    <string name="file_name">File name:</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+
+    <color name="gray">#ffff0000</color>
+
+    <string name="err">Error</string>
+
 </resources>
